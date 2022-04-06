@@ -3,15 +3,19 @@ import 'package:monkey_application/src/routes/routes.dart';
 
 void main() {
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    title: 'Monkey  Delivery',
-    initialRoute: '/',
-    routes: routes,
-    //home: HomePage(),
-    theme: ThemeData(
-      primaryColor:  const Color.fromRGBO(252, 96, 17, 1.0),
-      
-    ),
+      debugShowCheckedModeBanner: false,
+      title: 'Monkey Delivery',
+      initialRoute: '/sign_up',
+      routes: routes,
+      theme: ThemeData(
+          primaryColor: const Color.fromRGBO(252, 96, 17, 1.0),
+          colorScheme: ColorScheme.fromSwatch().copyWith(
+            secondary: const Color.fromRGBO(74, 75, 77, 1.0)
+          ),
+          fontFamily: 'Cabin'
+      )
    )
- );
+  );
+
+
 }

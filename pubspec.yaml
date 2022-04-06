@@ -59,10 +59,18 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - lib/src/img/background_gradient.png
-     - lib/src/img/fondo.png
-     - lib/src/img/fondo_1.png
-     - lib/src/img/monkey_face.png
+     - lib/src/img/Grupo_909.png
+     - lib/src/img/Grupo_910.png
+     - lib/src/img/Logo_background_gradient.png
+     - lib/src/img/Monkey_face.png
+     - lib/src/img/Shaped_subtraction.png
+     - lib/src/img/Sustraccion_2.png
+     - lib/src/img/Find_food_you_love_vector.png
+     - lib/src/img/Fast_delivery.png
+     - lib/src/img/Live_tracking_vector.png
+     - lib/src/img/Slider_indicators1.png
+     - lib/src/img/Slider_indicators2.png
+     - lib/src/img/Slider_indicators3.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -75,10 +83,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+     - family: Cabin
+       fonts:
+         - asset: lib/src/fonts/Cabin-Bold.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
