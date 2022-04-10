@@ -5,7 +5,7 @@ void main() {
   runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Monkey Delivery',
-      initialRoute: '/sign_up',
+      initialRoute: '/profile',
       routes: routes,
       theme: ThemeData(
           primaryColor: const Color.fromRGBO(252, 96, 17, 1.0),
