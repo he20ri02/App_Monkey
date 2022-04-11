@@ -77,6 +77,8 @@ flutter:
      - lib/src/img/French_Apple_Pie.jpeg
      - lib/src/img/Star.jpeg
      - lib/src/img/Street_Shake.jpeg
+         - lib/src/img/Visa.png
+    - lib/src/img/Pay.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
