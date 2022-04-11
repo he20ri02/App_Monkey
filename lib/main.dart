@@ -4,7 +4,7 @@ import 'package:monkey_application/src/routes/routes.dart';
 void main() {
   runApp(MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Monkey Delivery',
+    title: 'Monkey Delivery',
       initialRoute: '/profile',
       routes: routes,
       theme: ThemeData(

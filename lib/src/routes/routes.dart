@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:monkey_application/src/pages/Pagina19.dart';
 ////import Jesus Antonio
 import 'package:monkey_application/src/pages/antonioScreens/carrusel.dart';
 import 'package:monkey_application/src/pages/antonioScreens/carrusel_2.dart';
@@ -34,6 +35,7 @@ final routes = <String, WidgetBuilder> {
   '/verification': (BuildContext context) => const Verification(),
   '/desserts': (BuildContext context) => const Desserts(),
   '/profile': (BuildContext context) => const Profile(),
+  '/Pagina19': (BuildContext context) => const Pagina19(), 
   
   /////////Jesus Antonio // 
   '/carrusel_2': (BuildContext context) => const Carrusel2Page(),
