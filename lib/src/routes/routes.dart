@@ -8,6 +8,7 @@ import 'package:monkey_application/src/pages/antonioScreens/inbox.dart';
 import 'package:monkey_application/src/pages/antonioScreens/page_verification.dart';
 import 'package:monkey_application/src/pages/antonioScreens/password.dart';
 import 'package:monkey_application/src/pages/antonioScreens/texto_page.dart';
+import 'package:appmonkey/src/pages/Pagina19.dart';
 ////////////////////////
 import 'package:monkey_application/src/pages/fast_delivery.dart';
 import 'package:monkey_application/src/pages/findfoodpage.dart';
@@ -42,5 +43,7 @@ final routes = <String, WidgetBuilder> {
   '/inbox': (BuildContext context) => const Inbox(),  
   '/page_verification': (BuildContext context) => const VerificationPage(),  
   '/password': (BuildContext context) => const NewPassPage(), 
-  '/texto_page': (BuildContext context) => const TextPage(),                                      
+  '/texto_page': (BuildContext context) => const TextPage(), 
+  //P19
+  '/P19': (BuildContext context) => const Pagina19(),
 };
